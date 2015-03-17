@@ -287,7 +287,7 @@
 			name = BookMigrationTests;
 			productName = BookMigrationTests;
 			productReference = 739100DD17CBF03500383BD0 /* BookMigrationTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -589,7 +589,7 @@
 				7391010517CBF42000383BD0 /* Model2.xcdatamodel */,
 				739100FD17CBF13800383BD0 /* Model1.xcdatamodel */,
 			);
-			currentVersion = 73BFFFDA17D3AB2A0094E0BB /* Model3.xcdatamodel */;
+			currentVersion = 7391010517CBF42000383BD0 /* Model2.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
