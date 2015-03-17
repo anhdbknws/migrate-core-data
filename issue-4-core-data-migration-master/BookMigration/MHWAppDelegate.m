@@ -16,25 +16,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-    // Fake an old store so that we migrate on each launch
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    for (NSBundle *bundle in [NSBundle allBundles]) {
-        NSURL *oldStoreURL = [bundle URLForResource:@"Model1" withExtension:@"sqlite"];
-        NSLog(@"old: %@", oldStoreURL);
-        if (oldStoreURL) {
-            [fileManager removeItemAtURL:[MHWCoreDataController sharedInstance].sourceStoreURL error:nil];
-            [fileManager copyItemAtURL:oldStoreURL
-                                 toURL:[MHWCoreDataController sharedInstance].sourceStoreURL
-                                 error:nil];
-            break;
-        }
-    }
-
-    if ([MHWCoreDataController sharedInstance].isMigrationNeeded) {
-        [[MHWCoreDataController sharedInstance] migrate:nil];
-    }
-
-    return YES;
+//    // Fake an old store so that we migrate on each launch
+//    NSFileManager *fileManager = [NSFileManager defaultManager];
+//    for (NSBundle *bundle in [NSBundle allBundles]) {
+//        NSURL *oldStoreURL = [bundle URLForResource:@"Model1" withExtension:@"sqlite"];
+//        NSLog(@"old: %@", oldStoreURL);
+//        if (oldStoreURL) {
+//            [fileManager removeItemAtURL:[MHWCoreDataController sharedInstance].sourceStoreURL error:nil];
+//            [fileManager copyItemAtURL:oldStoreURL
+//                                 toURL:[MHWCoreDataController sharedInstance].sourceStoreURL
+//                                 error:nil];
+//            break;
+//        }
+//    }
+//
+//    if ([MHWCoreDataController sharedInstance].isMigrationNeeded) {
+//        [[MHWCoreDataController sharedInstance] migrate:nil];
+//    }
+//
+//    return YES;
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
