@@ -37,8 +37,6 @@
 		73C2EBF017DB972C00855DA5 /* NSManagedObjectModel+MHWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C2EBEF17DB972C00855DA5 /* NSManagedObjectModel+MHWAdditions.m */; };
 		73C2EBF317DBACAD00855DA5 /* Model2_to_Model3_User.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 73C2EBF217DBACAD00855DA5 /* Model2_to_Model3_User.xcmappingmodel */; };
 		73DB63C417CE8BF0002CA975 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739100FF17CBF1A600383BD0 /* CoreData.framework */; };
-		73E1761A17DBBB730046504B /* Model1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 73E1761917DBBB730046504B /* Model1.sqlite */; };
-		73E1761C17DBBC660046504B /* Model1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 73E1761917DBBB730046504B /* Model1.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +96,6 @@
 		73C2EBEE17DB972C00855DA5 /* NSManagedObjectModel+MHWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MHWAdditions.h"; sourceTree = "<group>"; };
 		73C2EBEF17DB972C00855DA5 /* NSManagedObjectModel+MHWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+MHWAdditions.m"; sourceTree = "<group>"; };
 		73C2EBF217DBACAD00855DA5 /* Model2_to_Model3_User.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model2_to_Model3_User.xcmappingmodel; sourceTree = "<group>"; };
-		73E1761917DBBB730046504B /* Model1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Model1.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +174,6 @@
 		739100BE17CBF03500383BD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				73E1761917DBBB730046504B /* Model1.sqlite */,
 				739100BF17CBF03500383BD0 /* BookMigration-Info.plist */,
 				739100C017CBF03500383BD0 /* InfoPlist.strings */,
 				739100C317CBF03500383BD0 /* main.m */,
@@ -328,7 +324,6 @@
 				739100CE17CBF03500383BD0 /* Default-568h@2x.png in Resources */,
 				739100D417CBF03500383BD0 /* MHWViewController_iPhone.xib in Resources */,
 				739100D717CBF03500383BD0 /* MHWViewController_iPad.xib in Resources */,
-				73E1761C17DBBC660046504B /* Model1.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				739100E917CBF03500383BD0 /* InfoPlist.strings in Resources */,
-				73E1761A17DBBB730046504B /* Model1.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
